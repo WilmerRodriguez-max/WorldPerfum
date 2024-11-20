@@ -1,0 +1,95 @@
+li {
+    list-style: none; 
+    margin-right: 55px; /*Separar Elementos*/
+    font-family: cursive;
+    font-size: 18px; 
+}
+
+
+ul{ 
+    display: flex; /* flotar 1 al lado del otro dentro de header*/    
+}
+.Logo{
+    font-size: 40px; 
+    color: white;
+    margin: 10px;
+    padding: 10px;
+}   
+.Menu {
+    display: flex; 
+    justify-content: space-between; /* Distribuye el espacio entre los elementos */
+    align-items: center; 
+    background-color: #274d60;
+    
+}
+
+a{
+    text-decoration: none; /* Eli. Subrayado*/
+    color: rgb(7, 6, 7);
+    transition: opacity 0.3s ease-in-out; /*Transicion */
+    color: white;
+}
+a:hover{
+    opacity: 0.2; /* Reduce la opacidad del enlace al pasar el mouse*/
+}
+
+/*imagen al lado del parrafo*/
+.Image{
+    margin-top: 50px;
+}
+.Titulo{
+    display: flex;
+    font-size: 40px;
+}
+.Parrafo{
+    width: 50%;
+   text-align: justify;
+   font-family: cursive;
+   font-size: 20px;
+}
+.Todo{
+    display: flex;
+    justify-content: space-around;
+}
+.Boton{
+    background-color: #274d60;
+    padding: 10px;
+}
+/*Menu de abajo*/
+h3{
+    text-align: center;
+    margin-top: 100px; /*Bajar el titulo*/
+    font-size: 60px;
+    font-family: cursive;
+}
+.Ul2{
+    justify-content: center; /*hace que flote Header en el centro*/
+    font-size: 40px;
+    
+   
+}
+.Imagen-flotar{
+    justify-content: space-around;
+    display: flex; /*Separa las imagenes*/
+}
+
+.li3{
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
