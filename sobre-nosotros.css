@@ -1,0 +1,77 @@
+
+  
+  li {
+    list-style: none; 
+    margin-right: 55px; /*Separar Elementos*/
+    font-family: cursive;
+    font-size: 18px; 
+}
+
+
+ul{ 
+    display: flex; /* flotar 1 al lado del otro dentro de header*/    
+}
+.Logo{
+    font-size: 40px; 
+    color: white;
+    margin: 10px;
+    padding: 10px;
+}   
+.Menu {
+    display: flex; 
+    justify-content: space-between; /* Distribuye el espacio entre los elementos */
+    align-items: center; 
+    background-color: #83a6ce;
+    
+}
+
+a{
+    text-decoration: none; /* Eli. Subrayado*/
+    color: rgb(7, 6, 7);
+    transition: opacity 0.3s ease-in-out; /*Transicion */
+    color: white;
+}
+a:hover{
+    opacity: 0.2; /* Reduce la opacidad del enlace al pasar el mouse*/
+}
+
+
+.Parrafos{
+    text-align: justify;
+    font-family: cursive;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.Parrafos div{
+    width: 30%;
+}
+
+body{
+    background-color: #274d60;
+}
+
+h1{
+    color: white;
+    font-family: cursive;
+    font-size: 40px;
+}
+p{
+    color: white;
+}
+
+.Redes{
+    text-align: center;
+    
+    
+}
+
+.Redes img{
+    padding: 10px; /*separar imagenes*/
+}
+
+h3{
+    font-size: 30px;
+}
+

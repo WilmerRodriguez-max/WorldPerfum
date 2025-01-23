@@ -1,0 +1,65 @@
+li {
+    list-style: none; 
+    margin-right: 55px; /*Separar Elementos*/
+    font-family: cursive;
+    font-size: 18px; 
+}
+
+
+ul{ 
+    display: flex; /* flotar 1 al lado del otro dentro de header*/    
+}
+.Logo{
+    font-size: 40px; 
+    color: white;
+    padding: 10px;
+    margin: 10px;
+}   
+.Menu {
+    display: flex; 
+    justify-content: space-between; /* Distribuye el espacio entre los elementos */
+    align-items: center; 
+    background-color: #274d60;
+    
+}
+
+a{
+    text-decoration: none; /* Eli. Subrayado*/
+    color: rgb(7, 6, 7);
+    transition: opacity 0.3s ease-in-out; /*Transicion */
+    color: white;
+}
+
+
+/*Parte de los productos*/
+.productos{
+    display: flex;
+    flex-wrap: wrap;/*Salto de linea*/
+    padding: 20px;
+    justify-content: space-around;
+}
+
+.producto{
+    border: 2px solid rgb(17, 17, 17);
+    border-radius: 10px;
+    padding: 10px; /*Alto de los border*/
+    margin: 10px;/*Margen entre las img de arriba con las de abajo*/
+    width: 300px;/*Abarcar el ancho para que solo queden 3 productos arriba*/
+    font-size: 25px;
+    font-family: sans-serif;
+}
+
+.producto img{
+    width: 200px;
+    height: 200px;
+    margin-left: 50px; /*Imagen en el centro*/
+}
+
+
+.WwW{
+    background-color: rgb(224, 223, 223);
+    padding: 5px;
+    color: black;
+    border-radius: 5px;
+   
+}

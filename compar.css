@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+li {
+    list-style: none; 
+    margin-right: 55px; /*Separar Elementos*/
+    font-family: cursive;
+    font-size: 18px; 
+}
+
+
+ul{ 
+    display: flex; /* flotar 1 al lado del otro dentro de header*/    
+}
+.Logo{
+    font-size: 40px; 
+    color: white;
+    margin: 10px;
+    padding: 10px;
+}   
+.Menu {
+    display: flex; 
+    justify-content: space-between; /* Distribuye el espacio entre los elementos */
+    align-items: center; 
+    background-color: #6ca7c9;
+ 
+    
+}
+
+a{
+    text-decoration: none; /* Eli. Subrayado*/
+    color: rgb(7, 6, 7);
+    transition: opacity 0.3s ease-in-out; /*Transicion */
+    color: white;
+}
+a:hover{
+    opacity: 0.2; /* Reduce la opacidad del enlace al pasar el mouse*/
+}
+
+
+
+body{
+    background-image: url(Credit.jpg);
+    
+    
+}
+
+.Formulario{
+    text-align: center;/*Alinea los elementos*/
+    border: 2px solid white;
+    border-radius: 5px;
+    width: 198px; /*Ancho del border*/
+    color: white;
+    margin: 70px; /*Separar de la esquina*/
+   
+}
+
+.Pagar{
+    font-family: cursive;
+    color: white;
+    margin: 80px;
+    
+    
+}
+
+.BT-Enviar{
+    background-color: white;
+    color: black;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+}

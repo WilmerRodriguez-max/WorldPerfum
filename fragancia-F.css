@@ -1,0 +1,69 @@
+li {
+    list-style: none; 
+    margin-right: 55px; /*Separar Elementos*/
+    font-family: cursive;
+    font-size: 18px; 
+}
+
+
+ul{ 
+    display: flex; /* flotar 1 al lado del otro dentro de header*/    
+}
+
+.Logo{
+    font-size: 40px; 
+    color: white;
+    margin: 10px;
+    padding: 10px;
+}   
+
+.Menu {
+    display: flex; 
+    justify-content: space-between; /* Distribuye el espacio entre los elementos */
+    align-items: center; 
+    background-color: pink;
+    
+}
+/*Letras del header*/
+a{
+    text-decoration: none; /* Eli. Subrayado*/
+    color: rgb(7, 6, 7);
+    transition: opacity 0.3s ease-in-out; /*Transicion */
+    color: white;
+}
+
+
+/*Parte de los productos*/
+.productos{
+    display: flex;
+    flex-wrap: wrap;/*Salto de linea*/
+    padding: 20px; /*Separar imagen header hacia abajo*/
+    justify-content: space-between;
+}
+.producto{
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    padding: 10px;/*agrandar el border hacia abajo*/
+    margin: 10px;
+    width: 300px; /*Dejar solo 3 productos por linea*/
+    font-size: 25px;
+    font-family: sans-serif;
+}
+
+
+
+.producto img{
+    width: 200px;
+    height: 200px;
+    margin-left: 50px; /*centrar imagen*/
+}
+
+
+
+.WwW{
+    background-color: rgb(224, 223, 223);
+    padding: 5px;
+    color: black;
+    border-radius: 5px;
+   
+}
