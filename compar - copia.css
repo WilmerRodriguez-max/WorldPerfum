@@ -1,3 +1,10 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
 li {
     list-style: none; 
     margin-right: 55px; /*Separar Elementos*/
@@ -9,61 +16,61 @@ li {
 ul{ 
     display: flex; /* flotar 1 al lado del otro dentro de header*/    
 }
-
 .Logo{
     font-size: 40px; 
     color: white;
     margin: 10px;
     padding: 10px;
 }   
-
 .Menu {
     display: flex; 
     justify-content: space-between; /* Distribuye el espacio entre los elementos */
     align-items: center; 
-    background-color: pink;
+    background-color: #6ca7c9;
+ 
     
 }
-/*Letras del header*/
+
 a{
     text-decoration: none; /* Eli. Subrayado*/
     color: rgb(7, 6, 7);
     transition: opacity 0.3s ease-in-out; /*Transicion */
     color: white;
 }
-
-
-/*Parte de los productos*/
-.productos{
-    display: flex;
-    flex-wrap: wrap;/*Salto de linea*/
-    padding: 20px; /*Separar imagen header hacia abajo*/
-    justify-content: space-between;
-}
-.producto{
-    border: 2px solid pink;
-    border-radius: 10px;
-    padding: 10px;/*agrandar el border hacia abajo*/
-    margin: 10px;
-    width: 300px; /*Dejar solo 3 productos por linea*/
-    font-size: 25px;
-    font-family: sans-serif;
+a:hover{
+    opacity: 0.2; /* Reduce la opacidad del enlace al pasar el mouse*/
 }
 
 
 
-.producto img{
-    width: 200px;
-    height: 200px;
-    margin-left: 50px; /*centrar imagen*/
+body{
+    background-image: url(Credit.jpg);
+    
+    
 }
 
-
-
-.WwW{
-    background-color: rgb(224, 223, 223);
-    padding: 5px;
-    color: black;
+.Formulario{
+    text-align: center;/*Alinea los elementos*/
+    border: 2px solid white;
     border-radius: 5px;
+    width: 198px; /*Ancho del border*/
+    color: white;
+    margin: 70px; /*Separar de la esquina*/
    
+}
+
+.Pagar{
+    font-family: cursive;
+    color: white;
+    margin: 80px;
+    
+    
+}
+
+.BT-Enviar{
+    background-color: white;
+    color: black;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
 }

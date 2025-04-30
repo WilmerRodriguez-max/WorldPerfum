@@ -61,17 +61,47 @@ p{
     color: white;
 }
 
-.Redes{
-    text-align: center;
+.Todo{
+    display: flex;
+    justify-content: space-between;
+    margin: 12px;
     
+}
+
+.Mision{
+    width: 70%;
+    margin: 30px;
+    
+   
+    padding: 10px;
+    color: white;
+    
+}
+.Vision{
+    width: 70%;
+    margin: 30px;
+    
+ 
+    padding: 10px;
+    color: white;
     
 }
 
-.Redes img{
-    padding: 10px; /*separar imagenes*/
+.Meta{
+   width: 70%; 
+   margin: 30px;
+ 
+    
+    padding: 10px;
+    color: white;
+    
 }
-
-h3{
-    font-size: 30px;
+.Objetivo{
+    width: 70%;
+    margin: 30px;
+    border-radius: 12px;
+   
+    
+    padding: 10px;
+    color: white;
 }
-
